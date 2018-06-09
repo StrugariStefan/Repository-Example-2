@@ -40,6 +40,7 @@ public class BandaDeAsamblare {
 			return null;
 		} else {
 			Componenta componenta = banda.getLast();
+			System.out.println("Componenta " + componenta.nume + " a fost sustras cu succes!");
 			banda.removeLast();
 			return componenta;
 		}
